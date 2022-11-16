@@ -1,3 +1,89 @@
 body {
   background-color: aliceblue;
 }
+
+.navbar-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.leaderboard-text {
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.main-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+.recent-score-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores-list-container {
+  width: 80%;
+  margin-top: 20px;
+  list-style: none;
+  border: 2px solid black;
+}
+
+.scores {
+  width: 100%;
+  height: 20px;
+}
+
+.even {
+  background-color: gray;
+}
+
+.add-your-score-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-container {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+input {
+  width: 70%;
+  height: 20px;
+}
+
+.submit {
+  width: 80px;
+  height: 25px;
+}
