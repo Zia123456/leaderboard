@@ -7,11 +7,15 @@ this repo created to contains leaderboard projects files
 - js
 ## Live Demo (if available)
 Live Demo [Link](#)
+
 ## Getting Started
 Simply you can open index.html file with any browser and, you will see the home page.
-for opennig index.html clone leaderboard repo and go to leaderboard directory, find index.html, right click on it, click on open with and, click on any browser which is available on your pc/labtop or open terminal write npm run start, the webpack server will open and you can see the home page.  
+for opennig index.html clone leaderboard repo and go to leaderboard directory, find index.html, right click on it, click on open with and, click on any browser which is available on your pc/labtop, or open the leaderboard clone via a text editor like VScode, open terminal write npm run start, the webpack server will open and you can see the home page.  
+
 ### Prerequisites
+
 ### Browser
+
 ## Author
 ### 🧑🏻 Author1
 - GitHub: [@zia123456](https://github.com/Zia123456)
