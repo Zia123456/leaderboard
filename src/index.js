@@ -21,5 +21,7 @@ submitBtn.addEventListener('click', async (e) => {
   const scoreValue = score.value;
   const player = new Player(userValue, scoreValue);
   const api = new Api();
+  user.value = '';
+  score.value = '';
   await api.post(player);
 });
