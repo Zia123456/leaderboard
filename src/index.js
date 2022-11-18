@@ -9,8 +9,6 @@ import Player from './modules/player';
 import render from './modules/display';
 import Api from './modules/Api';
 
-const api = new Api();
-
 window.addEventListener('DOMContentLoaded', render);
 
 refreshBtn.addEventListener('click', () => {
@@ -22,5 +20,6 @@ submitBtn.addEventListener('click', async (e) => {
   const userValue = user.value;
   const scoreValue = score.value;
   const player = new Player(userValue, scoreValue);
+  const api = new Api();
   await api.post(player);
 });
