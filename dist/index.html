@@ -4,11 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Leaderboard</title>
   <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
   <body>
     <nav class="navbar-container">
       <h1 class="leaderboard-text">Leaderboard</h1>
     </nav>
+
+    <main class="main-container">
+      <div class="recent-score-container">
+        <div class="title-container">
+          <h2 class="recent-scores-text">Recent scores</h2>
+          <button class="refresh">Refresh</button>
+        </div>
+        <div class="scores-list-container">
+          <!-- <div class="scores odd">Name: 100</div>
+          <div class="scores even">Name: 100</div>
+          <div class="scores odd">Name: 100</div>
+          <div class="scores even">Name: 100</div> -->
+        </div>
+      </div>
+      <div class="add-your-score-container">
+        <div class="text-container">
+          <h2 class="add-your-score-text">Add your score</h2>
+        </div>
+        <form class="form">
+          <input type="text" class="name" name="text" placeholder="Your name" />
+          <input
+            type="text"
+            class="score"
+            name="text"
+            placeholder="Your score"
+          />
+          <button class="submit">Submit</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
