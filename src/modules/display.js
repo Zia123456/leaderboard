@@ -1,12 +1,12 @@
 import { scoresList } from './access-html-elements';
 import Api from './Api';
 
-const api = new Api();
-
 const render = async () => {
   scoresList.innerHTML = '';
+  const api = new Api();
   const data = await api.get();
-  data.result.forEach((element) => {
+  const sortedScores = data.result.sort((a, b) => b.score - a.score);
+  sortedScores.forEach((element) => {
     const div = document.createElement('div');
     div.className = 'scores';
     div.innerHTML = `${element.user} : ${element.score}`;
